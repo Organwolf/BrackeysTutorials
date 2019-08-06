@@ -14,6 +14,7 @@ public class MeshGenerator : MonoBehaviour
     public int xSize = 20;
     public int zSize = 20;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,7 +22,6 @@ public class MeshGenerator : MonoBehaviour
         GetComponent<MeshFilter>().mesh = mesh;
         CreateShape();
         UpdateMesh();
-
     }
 
     void CreateShape()
