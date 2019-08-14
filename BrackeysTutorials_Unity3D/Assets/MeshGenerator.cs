@@ -3,6 +3,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// Resources: https://www.youtube.com/watch?v=eJEpeUH1EMg
+//            https://www.youtube.com/watch?v=64NblGkAabk
+
 [RequireComponent(typeof(MeshFilter))]
 public class MeshGenerator : MonoBehaviour
 {
